@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* header*/
+
+.container-fluid {
+   padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+#header-nav {
+    background-color: #6ed4c1;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-header h1 {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 1px #222
+}
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 2px solid #005d04;
+}
+
+
+
+#nav-list {
+    background-color: #6ed4c1;
+    text-align: center;
+    margin: 0 -15px;
+    border-color: #b54f29;
+
+}
+
+#nav-list a {
+    color: black;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    background-color: #65fdc9;
+}
+    /* Heaged end */
+
+ #chicken, #pizza, #pasta{
+    background-color: #bcfcb6;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    color: black;
+}
+h3{
+    text-align: center;
+    margin: 0;
+    font-size: 1.8em;
+}
+
+p {
+    padding: 8px;
+}
+
+
+
+hr {
+    border-color: black;
+    padding: 0;
+    margin: 0 15px;
+}
+
+
+
